@@ -16,3 +16,6 @@ $(TARGET): $(OBJ)
 
 clean:
 	rm -f $(OBJ) $(TARGET)
+
+debug:
+	g++ -std=c++11 -Wall -I./header src/main.cpp src/InquiryManager.cpp src/Strategy.cpp src/Logger.cpp -o SecureInquiryProcessor
