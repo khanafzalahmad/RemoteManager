@@ -42,6 +42,7 @@ class Developer : public Employee{
 
     void calculateSalary() const override {
         std::cout<<"Developer class fun"<<projectAllowance+50000<<std::endl;
+                std::cout<<"Developer class fun"<<std::endl;
     }
 };
 
